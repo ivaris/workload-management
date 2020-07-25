@@ -1,5 +1,7 @@
 package com.wawa.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +9,7 @@ import java.util.List;
 public class Member {
     Integer id;
     String name;
+
     List<Group> groups = new ArrayList<>();
 
     public Integer getId() {

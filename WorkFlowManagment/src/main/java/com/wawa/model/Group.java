@@ -1,9 +1,14 @@
 package com.wawa.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.PrimaryKeyJoinColumn;
 import java.math.BigInteger;
 import java.util.List;
 
+
 public class Group {
+
     Integer id;
     String name;
 
